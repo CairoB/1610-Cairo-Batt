@@ -5,8 +5,8 @@ public class TransformFunctions : MonoBehaviour
     public float moveSpeed = 10f;
     public float turnSpeed = 50f;
     
-    
-    void Update ()
+
+    void Update()
     {
         if(Input.GetKey(KeyCode.UpArrow))
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
