@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+    // Get player object information
     public GameObject Player;
     private Vector3 cameraOffset;
+
     // Start is called before the first frame update
     void Start()
     {
+        // Camera offset from player
         cameraOffset.Set(0, 5, -7);
     }
 
